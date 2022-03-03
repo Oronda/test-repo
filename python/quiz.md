@@ -399,6 +399,12 @@ Write a method which can calculate square value of number
 Hints:
 Using the ** operator
 
+```
+p=3
+square=p**2
+print(square)
+```
+
 ### Question 24
 Level 1
 
