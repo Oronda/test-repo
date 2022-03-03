@@ -471,6 +471,13 @@ Hints:
 
 Use len() function to get the length of a string
 
+```
+def max_length(y):
+    return(y)
+x= input('Enter two strings with using space\n')
+print(max_length(x.split()))
+```
+
 ### Question 32
 Define a function that can accept an integer number as input and print the "It is an even number" if the number is even, otherwise print "It is an odd number".
 
