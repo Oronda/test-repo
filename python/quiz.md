@@ -189,6 +189,15 @@ Notes: Assume the data is input by console.
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
+```
+results=[]
+numb=[x for x in input( ).split(',')]
+for z in numb:
+    if x%5 ==0:
+        results.append(z)
+print(','.join(results))
+```
+
 ### Question 12
 Level 2
 
