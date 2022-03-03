@@ -262,6 +262,15 @@ Then, the output should be:
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
+```
+odd_values= []
+for p in range(10):
+    if p%2 !=0:
+        p*p
+        odd_values.append(p)
+print(odd_values)
+```
+
 ### Question 17
 Level 2
 
