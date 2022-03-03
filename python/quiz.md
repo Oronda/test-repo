@@ -523,6 +523,13 @@ Use ** operator to get power of a number.
 Use range() for loops.
 Use keys() to iterate keys in the dictionary. Also we can use item() to get key/value pairs.
 
+```
+d=dict()
+for x in range(1,21):
+    d[x]=x**2
+print(d)
+```
+
 
 ### Question 37
 Define a function which can generate and print a list where the values are square of numbers between 1 and 20 (both included).
